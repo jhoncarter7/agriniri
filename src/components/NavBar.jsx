@@ -12,7 +12,7 @@ const NavBar = () => {
         <img src="./logo.jpg" alt="" className="w-20 h-12 rounded-2xl" />
       </div>
 
-      <ul className="flex gap-x-6 ">
+      <ul className="hidden  md:flex gap-x-6  ">
         <li className="dark:hover:text-green-600">
           <a href="#home">About Us</a>
         </li>

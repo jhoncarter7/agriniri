@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="bg-green-900 text-gray-100 pt-12 mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4  pb-12">
           {/* Branding Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
