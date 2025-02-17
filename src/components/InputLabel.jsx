@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 const InputLabel = ({ type, name }) => {
   return (
     <div className="flex flex-col">
-      <label>{name}</label>
+      <label className="pb-1">{name}</label>
       <input
         type={type}
         name={name}
-        className="border border-gray-500 h-10 focus"
+        className="border border-gray-500 h-10 focus rounded-xl pl-4"
       />
     </div>
   );

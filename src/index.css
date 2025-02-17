@@ -3,7 +3,9 @@
 :root {
   scroll-behavior: smooth;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @theme {
   --font-family-gilroy: "gilroy", sans-serif;
   --font-family-gilroy-medium: "gilroy-medium", sans-serif;
